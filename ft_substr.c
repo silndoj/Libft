@@ -6,7 +6,7 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/14 16:30:37 by silndoj           #+#    #+#             */
-/*   Updated: 2024/04/20 00:47:20 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/05/27 17:56:03 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,9 +33,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_memcpy(ptr, (s + start), sublen);
 	return (ptr);
 }
-
-int main()
-{
-	char	*ptr = "Silvi Ndoj12342125135zz";
-	printf("result ft_substr():%s\n", ft_substr(ptr, 5, ft_strlen(ptr)));
-}
+//
+//int main()
+//{
+//	char	*ptr = "Silvi Ndoj12342125135zz";
+//	printf("result ft_substr():%s\n", ft_substr(ptr, 5, ft_strlen(ptr)));
+//}

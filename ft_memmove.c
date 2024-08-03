@@ -6,7 +6,7 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/08 12:13:54 by silndoj           #+#    #+#             */
-/*   Updated: 2024/04/20 00:37:36 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/07/07 23:27:25 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,12 +38,12 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 	}
 	return (dest);
 }
-
-int main()
-{
-	char src[10] = "123456789";
-	printf("first is : %s\n", src);
-	char dest[10] = "123456789";
-	ft_memmove(dest, src, 4);
-	printf("second is : %s\n", src);
-}
+//
+//int main()
+//{
+//	int src[5] = {1, 2, 3, 4, 5};
+//	int	*dest;
+//	dest = NULL;
+//	ft_memmove(dest, src, 4);
+//	printf("second is : %d\n", dest[1]);
+//}

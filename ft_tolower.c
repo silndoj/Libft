@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/11 19:54:46 by silndoj           #+#    #+#             */
-/*   Updated: 2024/03/11 20:00:50 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/05/27 17:56:25 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "stdio.h"
+#include "libft.h"
 //#include <stdio.h>
 
 int	ft_tolower(int c)

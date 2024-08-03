@@ -6,7 +6,7 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 17:22:50 by silndoj           #+#    #+#             */
-/*   Updated: 2024/03/13 18:15:07 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/07/21 03:00:11 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,12 +40,11 @@ int	ft_atoi(const char *str)
 	}
 	return (result * n);
 }
-//
 //int main()
 //{
 //	int result, result1;
-//	result = atoi("  -54222h");
+//	result = atoi("2+2");
 //	printf("result atoi: %d\n", result);
-//	result1 = ft_atoi("  -54222h");
+//	result1 = ft_atoi("2+2");
 //	printf("result ft_atoi: %d\n", result1);
 //}
